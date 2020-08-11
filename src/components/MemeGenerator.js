@@ -49,7 +49,7 @@ export default class MemeGenerator extends React.Component {
                             id="topInput"
                             type="text" 
                             name="topText" 
-                            maxLength="25"
+                            maxLength="30"
                             value={this.state.topText} 
                             onChange={this.handleChange}
                             placeholder="Enter top text"
@@ -58,7 +58,7 @@ export default class MemeGenerator extends React.Component {
                             id="bottomInput"
                             type="text" 
                             name="bottomText" 
-                            maxLength="25"
+                            maxLength="30"
                             value={this.state.bottomText} 
                             onChange={this.handleChange}
                             placeholder="Enter bottom text"
@@ -74,7 +74,7 @@ export default class MemeGenerator extends React.Component {
                     </div>
 
                     <img src={this.state.randomImg} alt="" />
-                    
+
                     <div className="text">
                         <h2 id="bottomText">{this.state.bottomText}</h2>
                     </div>

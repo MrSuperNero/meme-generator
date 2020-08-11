@@ -63,6 +63,6 @@ header img:hover {
 
 @media screen and (max-width: 499px) {
     h1 {
-        font-size: 3em;
+        font-size: 2em;
     }
 }

@@ -1,0 +1,68 @@
+@-webkit-keyframes titleBackground {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@-moz-keyframes titleBackground {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@-o-keyframes titleBackground {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@keyframes titleBackground {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: transparent;
+    padding: 10px 7px;
+}
+
+header h1 {
+    font-weight: 700;
+    background: linear-gradient(225deg, #41b093, #a250d9, #4dd8d9, #ee7398);
+    background-clip: text;
+    background-size: 1000% 1000%;
+    -webkit-animation: titleBackground 20s ease infinite;
+    -moz-animation: titleBackground 20s ease infinite;
+    -o-animation: titleBackground 20s ease infinite;
+    animation: titleBackground 20s ease infinite;
+}
+
+header img {
+    height: 3.5em;
+    width: auto;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-top: 0.5em;
+}
+
+header img:hover {
+    box-shadow: white 0 0 20px;
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+@media screen and (min-width: 500px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    h1 {
+        font-size: 3em;
+    }
+}

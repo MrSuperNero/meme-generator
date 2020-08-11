@@ -102,11 +102,6 @@
     margin: 1% 0 2% 0;
 }
 
-.meme img {
-    height: 50vh;
-    width: auto;
-}
-
 .meme h2 {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -137,11 +132,21 @@
         margin: 0 2.5%;
         width: 45%;
     }
+
+    .meme img {
+        height: 50vh;
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .meme-text input[type="text"] {
         margin: 0;
         width: 100%;
+    }
+
+    .meme img {
+        height: auto;
+        max-width: 100%;
     }
 }

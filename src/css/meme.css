@@ -103,7 +103,7 @@
 }
 
 .meme img {
-    max-height: 50vh;
+    height: 50vh;
     width: auto;
 }
 

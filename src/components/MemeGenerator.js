@@ -65,7 +65,7 @@ export default class MemeGenerator extends React.Component {
                             />
                     </div>
 
-                    <button>Generate Meme</button>
+                    <button>Generate New Meme</button>
                 </form>
 
                 <div className="meme">

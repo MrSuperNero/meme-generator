@@ -1,7 +1,4 @@
 # Random Meme Generator
-This site can allow you to make your own memes with randomly generated meme images. 
-Link to site: (https://neo-meme-generator.netlify.app/) 
+A React app that can allow you to make your own memes with randomly generated meme images. The Imgflip Meme Generator API was used to generate the meme images.
 
-## Technology Used
-- React
-- Imgflip Meme Generator API
+Link to site: (https://neo-meme-generator.netlify.app/) 
